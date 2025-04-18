@@ -1,0 +1,88 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #2c3e50, #34495e);  /* Dark gradient */
+    color: #ecf0f1;  /* Light text color for contrast */
+    margin: 0;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Headings */
+h1 {
+    font-size: 2.5rem;
+    color: #1abc9c;  /* Light teal for a pop of color */
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: #ecf0f1;
+}
+
+/* Input and Button Styling */
+input,
+button {
+    font-size: 1rem;
+    padding: 14px 18px;
+    margin: 0.5rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+/* Input Styling */
+input {
+    width: 80%;
+    max-width: 400px;
+    border: 2px solid #1abc9c;
+    outline: none;
+    background-color: #34495e;
+    color: #ecf0f1;
+}
+
+input:focus {
+    border-color: #16a085;
+    box-shadow: 0 0 10px rgba(22, 160, 133, 0.5);
+}
+
+/* Button Styling */
+button {
+    background-color: #1abc9c;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.2);
+}
+
+button:hover {
+    background-color: #16a085;
+    box-shadow: 0 6px 14px rgba(22, 160, 133, 0.25);
+    transform: translateY(-2px);
+}
+
+/* Recommendations List */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 2rem;
+}
+
+li {
+    background: #2c3e50;
+    margin: 1rem auto;
+    padding: 1rem 1.5rem;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    text-align: left;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    color: #ecf0f1;
+}
+
+li:hover {
+    background: #34495e;
+    transform: scale(1.02);
+}
